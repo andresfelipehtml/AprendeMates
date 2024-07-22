@@ -1,0 +1,89 @@
+.contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+}
+.tarjeta{
+    width: 80%;
+    margin: 1em;
+    padding: 1em;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.tarjeta h2{
+    margin: 0;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.tarjeta p{
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.fondo-tarjeta {
+    position: relative;
+}
+
+.fondo-tarjeta img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contenido {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 1em;
+    align-content: center;
+}
+
+.tarjeta--grupo-botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjeta a{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(59, 36, 36);
+    border: 1px solid rgb(59, 36, 36);
+    padding: 0.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1em auto;
+    width: 50%;
+}
+
+.tarjeta a:hover, .tarjeta a.active {
+    background-color: rgb(59, 36, 36);
+    color: white;
+}
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px){
+    .contenedor-tarjetas{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tarjeta h2{
+        font-size: 1.2em;
+    }
+    .tarjeta p{
+        font-size: 0.8em;
+    }
+    .tarjeta a{
+        font-size: 0.7em;
+    }
+}

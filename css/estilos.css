@@ -1,0 +1,61 @@
+html{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0 auto;
+}
+#banner{
+    background-image: url('../assets/banner_mates.png');
+    background-size: cover;
+    background-position: center;
+    height: 40vh; display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#banner h1{
+    font-size: 3em;
+    color: rgb(59, 36, 36);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+#banner p{
+    font-size: 1.5em;
+    color: rgb(59, 36, 36);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.info-section{
+    padding: 1em;
+}
+footer{
+    background-color: rgb(59, 36, 36);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px){
+    #banner{
+        height: 30vh;
+        text-align: center;
+    }
+    #banner h1{
+        font-size: 2em;
+    }
+    #banner p{
+        font-size: 1em;
+    }
+    .info-section{
+        padding: 1em;
+        text-align: center;
+    }
+    footer{
+        font-size: 0.8em;
+    }
+}
