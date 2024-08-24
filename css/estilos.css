@@ -20,20 +20,20 @@ main{
 }
 #banner h1{
     font-size: 3em;
-    color: rgb(59, 36, 36);
-    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    color: hsl(0, 24%, 19%);
+    text-shadow: 2px 2px 2px #ffffff;
 }
 #banner p{
     font-size: 1.5em;
-    color: rgb(59, 36, 36);
-    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    color: #3b2424;
+    text-shadow: 2px 2px 2px #ffffff;
 }
 
 .info-section{
     padding: 1em;
 }
 footer{
-    background-color: rgb(59, 36, 36);
+    background-color: #3b2424;
     color: white;
     text-align: center;
     padding: 1em;

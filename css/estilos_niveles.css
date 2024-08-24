@@ -10,7 +10,6 @@
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
   }
   .navbar>div:first-child{
@@ -36,19 +35,19 @@
     margin: 0;
   }
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #3b2424;
   }
   .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px #00000033;
     z-index: 1;
   }
   .dropdown-content a {
     float: none;
-    color: black;
+    color: #000000;
     padding: 12px 16px;
     text-decoration: none;
     display: block;

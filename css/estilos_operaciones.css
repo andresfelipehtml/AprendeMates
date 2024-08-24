@@ -1,0 +1,80 @@
+main {
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.operaciones-divertidas {
+    background-color: #fffacd;
+    border: 2px solid #ffb6c1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.operaciones-divertidas h2 {
+    color: #ff69b4;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.operaciones-divertidas p {
+    margin: 10px 0;
+}
+
+.operaciones-divertidas ol {
+    text-align: left;
+    margin: 0 auto 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.operaciones-divertidas ol li {
+    background: #ffb6c1;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.operaciones-divertidas .numeros p {
+    font-size: 2em;
+    color: #ff69b4;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+input[type="number"] {
+    font-size: 1.2em;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #ffb6c1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff69b4;
+    color: #fff;
+}
+
+#mensaje {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
